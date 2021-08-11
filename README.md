@@ -48,7 +48,7 @@ API : 응용프로그램이 OS와 요청을 주고 받는 인터페이스를 API
 [운영체제 구조 - 배치 처리 시스템, 멀티 태스킹, 멀티 프로그래밍](https://yunsikus.github.io/cs/2021/07/29/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C_%EB%B0%B0%EC%B9%98%EC%B2%98%EB%A6%AC_%EC%8B%9C%EB%B6%84%ED%95%A0/)
 
 <details>
-<summary>질문 1 배치처리시스템은 무엇이고 어떤 단점이 있는가?</summary>
+<summary>배치처리시스템은 무엇이고 어떤 단점이 있는가?</summary>
 <div markdown="1">       
 
 배치처리 시스템은 등록된 여러 프로그램들을 컴퓨터 프로그램의 실행 요청 순서에 따라 순차적으로 실행하는 방식. 
