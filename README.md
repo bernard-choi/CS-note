@@ -10,10 +10,10 @@ Table of Contents
 
 Operating System(운영체제)
 ---
-- [운영체제의 역할](https://yunsikus.github.io/cs/2021/07/21/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%9D%98%EC%97%AD%ED%95%A0/)
+[운영체제의 역할](https://yunsikus.github.io/cs/2021/07/21/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%9D%98%EC%97%AD%ED%95%A0/)
   
 <details>
-<summary>질문 1 운영체제란 무엇입니까?</summary>
+<summary>운영체제란 무엇입니까?</summary>
 <div markdown="1">       
 
 응용 프로그램이 요청하는 시스템 리소스를 효율적으로 분배하고 지원하는 소프트웨어
@@ -22,7 +22,7 @@ Operating System(운영체제)
 </details> 
 
 <details>
-<summary>질문 2 운영체제의 주요 목적은 무엇입니까?</summary>
+<summary>운영체제의 주요 목적은 무엇입니까?</summary>
 <div markdown="1">       
 
 시스템 자원 관리, 사용자와 컴퓨터간의 커뮤니케이션 지원, 응용프로그램 관리
@@ -30,9 +30,10 @@ Operating System(운영체제)
 </div>
 </details> 
 
-- [운영체제 구조 - 시스템콜, 사용자 모드, 커널](https://yunsikus.github.io/cs/2021/07/29/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C_%EA%B5%AC%EC%A1%B0_%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%BD%9C/)
-
-<summary>질문 3 커널, API, 시스템콜이란?</summary>
+[운영체제 구조 - 시스템콜, 사용자 모드, 커널](https://yunsikus.github.io/cs/2021/07/29/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C_%EA%B5%AC%EC%A1%B0_%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%BD%9C/)
+  
+<details>
+<summary>커널, API, 시스템콜이란?</summary>
 <div markdown="1">       
 
 커널 : 커널은 하드웨어와 응용프로그램 사이에서 인터페이스(System Call)를 제공하여 응용 프로그램이 하드웨어에서부터 오는 자원(CPU, 메모리, 저장장치, 모니터)을 관리하고 사용할 수 있게 해준다. 즉, OS의 API기능을 담당하는 부분.
@@ -44,7 +45,7 @@ API : 응용프로그램이 OS와 요청을 주고 받는 인터페이스를 API
 </div>
 </details> 
 
-- [운영체제 구조 - 배치 처리 시스템, 멀티 태스킹, 멀티 프로그래밍](https://yunsikus.github.io/cs/2021/07/29/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C_%EB%B0%B0%EC%B9%98%EC%B2%98%EB%A6%AC_%EC%8B%9C%EB%B6%84%ED%95%A0/)
+[운영체제 구조 - 배치 처리 시스템, 멀티 태스킹, 멀티 프로그래밍](https://yunsikus.github.io/cs/2021/07/29/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C_%EB%B0%B0%EC%B9%98%EC%B2%98%EB%A6%AC_%EC%8B%9C%EB%B6%84%ED%95%A0/)
 
 <details>
 <summary>질문 1 배치처리시스템은 무엇이고 어떤 단점이 있는가?</summary>
@@ -58,7 +59,7 @@ API : 응용프로그램이 OS와 요청을 주고 받는 인터페이스를 API
 </details> 
 
 <details>
-<summary>질문 2 시분할 시스템이란?</summary>
+<summary>시분할 시스템이란?</summary>
 <div markdown="1">       
 
 시분할 시스템은 다중 사용자 지원을 위해 컴퓨터 응답시간을 최소화하는 시스템. 각 어플리케이션이 실행될수 있도록 잘게 잘라서 배치하는 것.
@@ -67,7 +68,7 @@ API : 응용프로그램이 OS와 요청을 주고 받는 인터페이스를 API
 </details> 
 
 <details>
-<summary>질문 3 멀티 태스킹과 멀티 프로세싱의 차이점은?</summary>
+<summary>멀티 태스킹과 멀티 프로세싱의 차이점은?</summary>
 <div markdown="1">       
 
 멀티 태스킹은 단일 CPU에서 여러개의 쪼개진 프로세스가 실행되도록 하는 갓. 반면 멀티 프로세싱은 여러 CPU에 하나의 프로그램을 병렬로 실행해서 실행속도를 극대화 시키는 시스템. 
@@ -75,10 +76,10 @@ API : 응용프로그램이 OS와 요청을 주고 받는 인터페이스를 API
 </div>
 </details> 
 
-- [운영체제 구조 - 선점형/비선점형 스케줄러](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%84%A0%EC%A0%90%ED%98%95-%EB%B9%84%EC%84%A0%EC%A0%90%ED%98%95/)
+[운영체제 구조 - 선점형/비선점형 스케줄러](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%84%A0%EC%A0%90%ED%98%95-%EB%B9%84%EC%84%A0%EC%A0%90%ED%98%95/)
 
 <details>
-<summary>1. 선점 스케줄링과 비선점 스케줄링의 차이점은?</summary>
+<summary>선점 스케줄링과 비선점 스케줄링의 차이점은?</summary>
 <div markdown="1">       
 
 선점 스케줄링은 높은 우선순위의 프로세스가 들어올 경우 현재 프로세스를 중지시키고, 높은 우선순위의 프로세스를 처리.
@@ -89,11 +90,11 @@ API : 응용프로그램이 OS와 요청을 주고 받는 인터페이스를 API
 </details>
 
 
-- [운영체제 구조 - 프로세스 스케줄링](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%84%A0%EC%A0%90%ED%98%95-%EB%B9%84%EC%84%A0%EC%A0%90%ED%98%95/)
+[운영체제 구조 - 프로세스 스케줄링](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%84%A0%EC%A0%90%ED%98%95-%EB%B9%84%EC%84%A0%EC%A0%90%ED%98%95/)
 
 
 <details>
-<summary>질문 1 스케줄링이 필요한 이유?</summary>
+<summary>스케줄링이 필요한 이유?</summary>
 <div markdown="1">       
 
 한정적인 메모리(자원)를 효율적으로 관리하기 위해, 공정성을 주기 위해 필요하다.
@@ -103,7 +104,7 @@ API : 응용프로그램이 OS와 요청을 주고 받는 인터페이스를 API
 
 
 <details>
-<summary>질문 2 스케줄러와 CPU 스케줄러의 차이에 대하여 설명해보세요.</summary>
+<summary>스케줄러와 CPU 스케줄러의 차이에 대하여 설명해보세요.</summary>
 <div markdown="1">       
 
 스케줄러(=Job Scehduler, 장기 스케줄러)는 디스크와 메모리 간 스케줄링을 담당한다.
@@ -115,7 +116,7 @@ CPU 스케쥴러(= 단기 스케줄러)는 메모리와 CPU 간 스케줄링을 
 
 
 <details>
-<summary>질문 3 FCFS 스케줄링을 개선한 스케줄링 방식에 대하여 설명해보세요..</summary>
+<summary>FCFS 스케줄링을 개선한 스케줄링 방식에 대하여 설명해보세요..</summary>
 <div markdown="1">       
 
 FCFS는 먼저 도착한 프로세스에게 CPU를 할당하는 기법이다.
@@ -133,7 +134,7 @@ Convoy Effect는 해결하였지만, 실행시간이 긴 프로세스는 계속 
 
 
 <details>
-<summary>질문 5 Round Robin 스케줄링 방식에서 time quantum 설정에 따른 결과를 설명해보세요.</summary>
+<summary>Round Robin 스케줄링 방식에서 time quantum 설정에 따른 결과를 설명해보세요.</summary>
 <div markdown="1">       
 
 타임퀀텀이 긴 경우: 타임퀀텀이 프로세스의 실행시간과 비슷해진다면 FCFS랑 다를 바 없어진다.
@@ -144,7 +145,7 @@ Convoy Effect는 해결하였지만, 실행시간이 긴 프로세스는 계속 
 </details>
 
 <details>
-<summary>질문 6 오버헤드가 어떤건가요?.</summary>
+<summary>오버헤드가 어떤건가요?.</summary>
 <div markdown="1">       
 
 프로그램의 실행 흐름 도중에 동떨어진 위치의 코드를 실행시켜야 할 때, 추가적으로 시간, 메모리, 자원이 사용되는 현상을 오버헤드라 한다.
@@ -153,7 +154,7 @@ Convoy Effect는 해결하였지만, 실행시간이 긴 프로세스는 계속 
 </details>
 
 <details>
-<summary>질문 7 다음 스케줄링 알고리즘을 설명하시오 - FCFS.</summary>
+<summary>다음 스케줄링 알고리즘을 설명하시오 - FCFS.</summary>
 <div markdown="1">       
 - 특징 
     - 먼저 온 고객을 먼저 서비스해주는 방식. 먼저 온 순서대로 차리
@@ -168,7 +169,7 @@ Convoy Effect는 해결하였지만, 실행시간이 긴 프로세스는 계속 
 
 
 <details>
-<summary>질문 8 다음 스케줄링 알고리즘을 설명하시오 - SJF.</summary>
+<summary>다음 스케줄링 알고리즘을 설명하시오 - SJF.</summary>
 <div markdown="1">       
 - 특징
   - 가장 프로세스 실행시간이 짧은 프로세스부터 먼저 실행을 시키는 알고리즘
@@ -181,7 +182,7 @@ Convoy Effect는 해결하였지만, 실행시간이 긴 프로세스는 계속 
 </details>
 
 <details>
-<summary>질문 8 다음 스케줄링 알고리즘을 설명하시오 - SRT.</summary>
+<summary>다음 스케줄링 알고리즘을 설명하시오 - SRT.</summary>
 <div markdown="1">       
 - 특징
   - 새로운 프로세스가 도착할 때마다 새로운 스케줄링이 이루어진다
@@ -193,7 +194,7 @@ Convoy Effect는 해결하였지만, 실행시간이 긴 프로세스는 계속 
 </details>
 
 <details>
-<summary>질문 9 다음 스케줄링 알고리즘을 설명하시오 - Priority Scheduling.</summary>
+<summary>다음 스케줄링 알고리즘을 설명하시오 - Priority Scheduling.</summary>
 <div markdown="1">       
 - 특징
   - 우선순위가 가장 높은 프로세스에게 CPU를 할당 우선순위란 정수로 표현하게 되고 작은 숫자가 우선순위가 높다. 
@@ -208,7 +209,7 @@ Convoy Effect는 해결하였지만, 실행시간이 긴 프로세스는 계속 
 </details>
 
 <details>
-<summary>질문 10 다음 스케줄링 알고리즘을 설명하시오 - Round Robin.</summary>
+<summary>다음 스케줄링 알고리즘을 설명하시오 - Round Robin.</summary>
 <div markdown="1">       
 - 특징
   - 현대적인 CPU 스케줄링. 시분할 시스템을 위해 설계됨
@@ -226,10 +227,10 @@ Convoy Effect는 해결하였지만, 실행시간이 긴 프로세스는 계속 
 </div>
 </details>
 
-- [운영체제 구조 - 인터럽트](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8/)
+[운영체제 구조 - 인터럽트](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8/)
 
 <details>
-<summary>질문 1 인터럽트란?</summary>
+<summary>인터럽트란?</summary>
 <div markdown="1">       
 
 CPU가 프로그램을 실행하고 있을 때, 입출력 **하드웨어 장치와 커뮤니케이션 할때나, 예외상황이 발생하여 처리가 필요할 경우가 생길 수 있다. 이때 CPU에 알려서 처리하는 기술을 인터럽트라고 한다.**
@@ -238,7 +239,7 @@ CPU가 프로그램을 실행하고 있을 때, 입출력 **하드웨어 장치�
 </details>
 
 <details>
-<summary>질문 2 내부/외부 인터럽트는 어떤 상황들이 있는지?</summary>
+<summary>내부/외부 인터럽트는 어떤 상황들이 있는지?</summary>
 <div markdown="1">       
 
 내부 인터럽트는 하드웨어 고장, 실행할 수 없는 명령어, 명령어 실행 오류, 사용 권한 위배 등이 있다. 
@@ -256,7 +257,7 @@ CPU가 프로그램을 실행하고 있을 때, 입출력 **하드웨어 장치�
 </div>
 </details>
 
-- [운영체제 구조 - 프로세스 구조, 컨텍스트 스위칭](https://yunsikus.github.io/cs/2021/08/11/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%8A%A4%EC%9C%84%EC%B9%AD/) 
+[운영체제 구조 - 프로세스 구조, 컨텍스트 스위칭](https://yunsikus.github.io/cs/2021/08/11/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%8A%A4%EC%9C%84%EC%B9%AD/) 
 
 
 <details>
