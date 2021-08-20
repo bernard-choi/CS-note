@@ -30,7 +30,7 @@ Operating System(운영체제)
 </div>
 </details> 
 
-[운영체제 구조 - 시스템콜, 사용자 모드, 커널](https://yunsikus.github.io/cs/2021/07/29/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C_%EA%B5%AC%EC%A1%B0_%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%BD%9C/)
+[운영체제 - 시스템콜, 사용자 모드, 커널](https://yunsikus.github.io/cs/2021/07/29/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C_%EA%B5%AC%EC%A1%B0_%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%BD%9C/)
   
 <details>
 <summary>커널, API, 시스템콜이란?</summary>
@@ -45,7 +45,7 @@ API : 응용프로그램이 OS와 요청을 주고 받는 인터페이스를 API
 </div>
 </details> 
 
-[운영체제 구조 - 배치 처리 시스템, 멀티 태스킹, 멀티 프로그래밍](https://yunsikus.github.io/cs/2021/07/29/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C_%EB%B0%B0%EC%B9%98%EC%B2%98%EB%A6%AC_%EC%8B%9C%EB%B6%84%ED%95%A0/)
+[운영체제 - 배치 처리 시스템, 멀티 태스킹, 멀티 프로그래밍](https://yunsikus.github.io/cs/2021/07/29/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C_%EB%B0%B0%EC%B9%98%EC%B2%98%EB%A6%AC_%EC%8B%9C%EB%B6%84%ED%95%A0/)
 
 <details>
 <summary>배치처리시스템은 무엇이고 어떤 단점이 있는가?</summary>
@@ -76,7 +76,7 @@ API : 응용프로그램이 OS와 요청을 주고 받는 인터페이스를 API
 </div>
 </details> 
 
-[운영체제 구조 - 선점형/비선점형 스케줄러](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%84%A0%EC%A0%90%ED%98%95-%EB%B9%84%EC%84%A0%EC%A0%90%ED%98%95/)
+[운영체제 - 선점형/비선점형 스케줄러](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%84%A0%EC%A0%90%ED%98%95-%EB%B9%84%EC%84%A0%EC%A0%90%ED%98%95/)
 
 <details>
 <summary>선점 스케줄링과 비선점 스케줄링의 차이점은?</summary>
@@ -90,7 +90,7 @@ API : 응용프로그램이 OS와 요청을 주고 받는 인터페이스를 API
 </details>
 
 
-[운영체제 구조 - 프로세스 스케줄링](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%84%A0%EC%A0%90%ED%98%95-%EB%B9%84%EC%84%A0%EC%A0%90%ED%98%95/)
+[운영체제 - 프로세스 스케줄링](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%84%A0%EC%A0%90%ED%98%95-%EB%B9%84%EC%84%A0%EC%A0%90%ED%98%95/)
 
 
 <details>
@@ -227,7 +227,7 @@ Convoy Effect는 해결하였지만, 실행시간이 긴 프로세스는 계속 
 </div>
 </details>
 
-[운영체제 구조 - 인터럽트](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8/)
+[운영체제 - 인터럽트](https://yunsikus.github.io/cs/2021/08/06/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8/)
 
 <details>
 <summary>인터럽트란?</summary>
@@ -257,7 +257,7 @@ CPU가 프로그램을 실행하고 있을 때, 입출력 **하드웨어 장치�
 </div>
 </details>
 
-[운영체제 구조 - 프로세스 구조, 컨텍스트 스위칭](https://yunsikus.github.io/cs/2021/08/11/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%8A%A4%EC%9C%84%EC%B9%AD/) 
+[운영체제 - 프로세스 구조, 컨텍스트 스위칭](https://yunsikus.github.io/cs/2021/08/11/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%8A%A4%EC%9C%84%EC%B9%AD/) 
 
 
 <details>
@@ -275,6 +275,17 @@ CPU가 프로그램을 실행하고 있을 때, 입출력 **하드웨어 장치�
 <div markdown="1">       
 PCB는 특정 프로세스에 대한 중요한 정보를 저장하고 있는 운영체제의 자료구조. 운영체제는 프로세스를 관리하기 위해 프로세스의 생성과 동시에 고유한 PCB를 생성. 프로세스는 CPU를 할당받아 작업을 처리하다가도 프로세스 전환이 발생하면 진행하던 작업을 저장하고 CPU를 반환해야 하는데, 이때 작업의 진행 상황을 모두 PCB에 저장하게 된다. 그리고 다시 CPU를 할당받게 되면 PCB에 저장되어있던 내용을 불러와 이전에 종료됐던 시점부터 다시 작업을 수행한다.
 PCB에 저장되는 정보는 프로세스 ID, Register 값(PC, SP), 스케줄링 정보, 메모리 관리 정보등이 있다. 
+
+</div>
+</details>
+
+[운영체제 - 프로세스간 커뮤니케이션](https://yunsikus.github.io/cs/2021/08/21/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EA%B0%84%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98/)
+
+<details>
+<summary>한 프로세스가 다른 프로세스에 자원에 접근하는 방법은 무엇이 있나?</summary>
+<div markdown="1">       
+
+한 프로세스가 다른 프로세스의 자원에 접근하려면 프로세스 간의 통신(IPC, inter-process communication)을 사용해야 한다. 파이프, 메시지큐, 공유메모리, 시그널등을 이용할 수 있다. 
 
 </div>
 </details>
